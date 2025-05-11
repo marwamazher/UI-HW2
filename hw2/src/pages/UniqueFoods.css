@@ -1,8 +1,0 @@
-/*CSS styling for search, sort and filter in unique food page*/
-
-.search-sort-filter-container {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-}
