@@ -1,0 +1,10 @@
+/*CSS styling for star rating component, used for reviews*/
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating {
+  display: flex;
+  gap: 10px; 
+}

@@ -1,0 +1,132 @@
+/*CSS styling for ContentView (viewing restaurants and places)*/
+.info-box {
+    border-radius: 5px;
+    border: 1px solid rgb(75, 52, 52);
+    padding: 20px;
+    background-color: #e4e4e4;
+}
+
+.view {
+    display: grid;
+    grid-template-columns: 150px 1fr 300px;
+    gap: 50px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+}
+
+.view img {
+    width: 150px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.categories {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.info-box button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #542424;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.info-box button:hover {
+    background-color: #3b000e;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 100%; /* 16 / 9 ratio */
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.view-reviews {
+    grid-column: span 3; 
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-reviews h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #542424;
+}
+
+.reviews-list {
+    margin-bottom: 20px;
+}
+
+.review-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.review-item p {
+    font-size: 15px;
+    color: #333;
+}
+
+.review-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    min-height: 100px;
+    resize: vertical;
+}
+
+.submit-review-btn {
+    background-color: #542424;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.submit-review-btn:hover {
+    background-color: #3b000e;
+}
+
+.view-reviews p {
+    font-size: 14px;
+    color: #777;
+}
+.sort-dropdown-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
